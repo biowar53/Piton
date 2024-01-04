@@ -27,22 +27,4 @@ while True:
 
     choice = input("Введите номер операции (1/2/3/4/5): ")
 
-    if choice == '5':
-        print("До свидания!")
-        break
 
-    if choice not in ('1', '2', '3', '4'):
-        print("Неверный ввод. Попробуйте снова.")
-        continue
-
-    num1 = float(input("Введите первое число: "))
-    num2 = float(input("Введите второе число: "))
-
-    if choice == '1':
-        print("Результат:", add(num1, num2))
-    elif choice == '2':
-        print("Результат:", subtract(num1, num2))
-    elif choice == '3':
-        print("Результат:", multiply(num1, num2))
-    elif choice == '4':
-        print("Результат:", divide(num1, num2))
