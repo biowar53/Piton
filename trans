@@ -9,3 +9,7 @@ text_to_translate = "Привет, как дела?"
 target_language = "en"  # Язык, на который нужно перевести (например, "en" для английского)
 translated_text = translate_text(text_to_translate, target_language)
 print(translated_text)
+text_to_translate = "Привет, как дела?"
+target_language = "en"  # Язык, на который нужно перевести (например, "en" для английского)
+translated_text = translate_text(text_to_translate, target_language)
+print(translated_text)
