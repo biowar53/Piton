@@ -11,11 +11,7 @@ def multiply(x, y):
     return x * y
 
 # Функция для деления
-def divide(x, y):
-    if y == 0:
-        return "Ошибка: деление на ноль"
-    return x / y
-
+def divide(x, y)a
 while True:
     print("Простой калькулятор")
     print("Выберите операцию:")
